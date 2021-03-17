@@ -3,8 +3,6 @@ import main
 import cfg
 import config
 from telebot import types
-import os
-os.environ['TOKEN']
 
 
 bot = telebot.TeleBot(config.token)
